@@ -1,0 +1,23 @@
+label{
+    color: $color-primary;
+}
+input{
+    color: $color-primary;
+    border: 2px solid $color-primary!important;
+
+}
+
+input, select, textarea, ::placeholder{
+    color: $color-primary;
+}
+
+input[type=text]:focus{
+    border: 2px solid $color-primary!important;
+}
+
+.result{
+    background-color: rgba($color: #98FB98, $alpha: 0.3);
+}
+input[type=submit]{
+    background-color: rgba($color: #F5F5F5, $alpha: 0.8);
+}

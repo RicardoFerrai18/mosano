@@ -1,0 +1,53 @@
+main {
+  background-color: rgba(245, 245, 245, 0.8);
+}
+
+main .col-6 {
+  max-width: 100% !important;
+}
+
+label {
+  color: #4682B4;
+}
+
+input {
+  color: #4682B4;
+  border: 2px solid #4682B4 !important;
+}
+
+input, select, textarea, ::-webkit-input-placeholder {
+  color: #4682B4;
+}
+
+input, select, textarea, :-ms-input-placeholder {
+  color: #4682B4;
+}
+
+input, select, textarea, ::-ms-input-placeholder {
+  color: #4682B4;
+}
+
+input, select, textarea, ::placeholder {
+  color: #4682B4;
+}
+
+input[type=text]:focus {
+  border: 2px solid #4682B4 !important;
+}
+
+.result {
+  background-color: rgba(152, 251, 152, 0.3);
+}
+
+input[type=submit] {
+  background-color: rgba(245, 245, 245, 0.8);
+}
+
+.border-3 {
+  border: 2px solid #4682B4;
+}
+
+.color {
+  color: #4682B4;
+}
+/*# sourceMappingURL=main.css.map */

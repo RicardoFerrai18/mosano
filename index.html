@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/sass/main.css" />
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <main >
+        <div class="container d-flex pt-5 pb-5">
+
+            <div class="col-6">
+                <form class="name">
+                        <div class="d-block">
+                            <div class="d-flex justify-content-between">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="name here">
+                    </div>
+                    </div>
+                    <div class="d-block mt-3">
+                        <div class="d-flex justify-content-between">
+                        <label for="surname">Surname:</label>
+                        <input type="text" id="surname" name="surname" placeholder="name here">
+                    </div>
+                    </div>
+                    
+                    <div class="d-block mt-3">
+                        <div class="d-flex justify-content-between">
+                        <label for="countries">Countries:</label>
+                        <input list="countries" placeholder="countries" id="countriesList" name="countries" >
+                        <datalist id="countries">
+                        </datalist>
+                    </div>
+                    </div>
+                    
+                    <div class="d-block mt-3">
+                        <div class="d-flex justify-content-between">
+                        <label for="birthday">Birthday:</label>
+                        <input type="date" id="birthday" name="birthday">
+                    </div>
+                    </div>
+                    <div class="mt-5 d-flex flex-row-reverse">
+                    <input type="submit" value="Save" id="btnSend">
+                </div>
+                </form>
+                <div class="display mt-5 result p-2" id="greeting">
+                    <p id="textGreeting"></p>
+                </div>
+            </div>
+            <div class="col-6 border-3 p-0">
+                <table class="table" id="display">
+                    <thead>
+                    <tr>
+                        <th scope="col">name</th>
+                        <th scope="col">Country</th>
+                        <th scope="col">birthday</th>
+                    </tr>
+                    <tr class="">
+
+                    </tr>
+                    </thead>
+                    <tbody class="table-display">
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+        <div class="container-fluid d-flex flex-row-reverse">
+            <p class="color">Ricardo Ferreira</p>
+        </div>
+        </main>
+    <script src="src/js/index.js"></script>
+</body>
+</html>
